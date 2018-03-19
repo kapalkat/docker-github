@@ -1,0 +1,117 @@
+body {
+    color: #fff;
+    font-family: 'Lato',sans-serif;
+    font-size: 14px;
+    line-height: 1.7em;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*This section is to add tittle*/
+
+h1 {
+    font-size: 60px;
+    color: #808080;
+    font-weight: 300;
+}
+
+.title {
+    margin-top: 3%;
+    margin-left: 240px;
+}
+
+/*This section is to format Docker_is*/
+.docker_is {
+    font-size: 60px;
+    color: #9b9b9b;
+    font-weight: 300;
+    position: absolute;
+    left: 40%;
+    margin-left: -150px;
+    margin-top: 30px;
+    height: 40px;
+}
+
+p {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+}
+
+.word {
+  position: absolute;
+  width: 220px;
+  opacity: 0;
+}
+
+.letter {
+  display: inline-block;
+  position: relative;
+  float: left;
+  transform: translateZ(25px);
+  transform-origin: 50% 50% 25px;
+}
+
+.letter.out {
+  transform: rotateX(90deg);
+  transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.letter.behind {
+  transform: rotateX(-90deg);
+}
+
+.letter.in {
+  transform: rotateX(0deg);
+  transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.amartus_gradient_1 {
+  color: #00A847;
+}
+
+.amartus_gradient_2 {
+  color: #005C89;
+}
+
+.amartus_gradient_3 {
+  color: #103871;
+}
+
+.amartus_gradient_4 {
+  color: #006F7D;
+}
+
+.amartus_gradient_5 {
+  color: #005251;
+}
+
+
+/*This section is to format env variable*/
+
+h2 {
+    font-size: 40px;
+    font-weight: 100;
+    color: #c3c3c3;
+}
+
+.env-variable {
+    margin-left: 240px;
+    margin-top: 350px;
+}
+
+.env-variable-value {
+    font-weight: 300;
+}
+
+/*This is styling for image 3 test*/
+/*Changes to show building new layers */
+.app-upgrade-image3 {
+    font-family: 'Lato',sans-serif;
+    color: #dadada;
+    margin-top: 5%;
+    text-align: center;
+    font-weight: 400;
+    font-size: 45px;
+
+}

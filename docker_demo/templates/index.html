@@ -1,0 +1,36 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+    <div class="title">
+        <h1>Why Docker...</h1>
+    </div>
+    <div class="docker_is">
+{#        <p>Docker is</p>#}
+        <p>
+            <span class="word amartus_gradient_1">simple</span>
+            <span class="word amartus_gradient_1">light</span>
+            <span class="word amartus_gradient_1">isolated</span>
+            <span class="word amartus_gradient_1">secure</span>
+            <span class="word amartus_gradient_1">scalable</span>
+            <span class="word amartus_gradient_1">popular</span>
+        </p>
+    </div>
+
+    <div class="env-variable">
+        <h2>Provided env variable is:</h2>
+        <h2>
+            <span
+                class="txt-rotate env-variable-value"
+                data-period="2000"
+                data-rotate='[ "{{ env_variable }}" ]'>
+            </span>
+        </h2>
+    </div>
+
+{#Changes to show building new layers    #}
+{#    <div class="app-upgrade-image3">#}
+{#	 <span>TEST IMAGE 3</span>#}
+{#    </div>#}
+
+    <script type="text/javascript" src="{{ url_for('static', filename='script.js') }}"></script>
+{% endblock %}
